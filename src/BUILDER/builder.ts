@@ -24,11 +24,3 @@ export class DataAnalysesBuilder implements Builder {
     return this.dataToAnalyse;
   }
 }
-
-const removeAllSpaces = (data: string): string => {
-  return data.trim().split(" ").join();
-};
-
-const capitalizeString = (data: string): string => {
-  return data.toUpperCase();
-};
